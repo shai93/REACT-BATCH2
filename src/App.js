@@ -5,10 +5,13 @@ import './App.css';
 // import Form from './Form';
 // import Portalroot from './Portalroot';
 // import { UserProvider, userContext } from './User';
-import C from './C';
+// import C from './C';
 import {BrowserRouter as Router, NavLink, Redirect} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Counter from './hooks/counter';
+import ECounter from './hooks/ecounter';
+import Mouse from './hooks/mouse';
+import External from './hooks/External';
 
 class App extends React.Component {
 
@@ -55,7 +58,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Counter></Counter>
+        <External></External>
       </div>
       // <Router>
       // <div className="App">
