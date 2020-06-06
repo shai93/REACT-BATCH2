@@ -12,7 +12,10 @@ import Counter from './hooks/counter';
 import ECounter from './hooks/ecounter';
 import Mouse from './hooks/mouse';
 import External from './hooks/External';
-
+import CounterMemo from './hooks/counterMemo';
+import InputRef from './hooks/InputRef';
+import Mycounter from './hooks/mycounter';
+import Myclass from './hooks/myclass';
 class App extends React.Component {
 
   state = {
@@ -58,7 +61,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <External></External>
+        <Myclass></Myclass>
       </div>
       // <Router>
       // <div className="App">
